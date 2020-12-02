@@ -138,6 +138,11 @@
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\prueba-cmd2" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -198,7 +203,7 @@
       <workItem from="1606939549055" duration="1781000" />
       <workItem from="1606941368695" duration="1781000" />
       <workItem from="1606943186960" duration="1778000" />
-      <workItem from="1606945007518" duration="593000" />
+      <workItem from="1606945007518" duration="1370000" />
     </task>
     <servers />
   </component>

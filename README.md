@@ -128,3 +128,6 @@ Con esto ya tenemos nuestros comandos funcionando. Al ejecutar
 ````
 
 ![Captura commands](commands.png "Captura commands")
+
+<hr>
+Podemos migrar para crear la base de datos con *php artisan migrate*
