@@ -120,6 +120,22 @@ Creamos la clase **Advanced_operations** para realizar las pruebas correspondien
 
 <hr>
 
+### Registramos los comandos en el *Kernel
+
+Para ver los comando que hemos creado, debemos registrarlo en el kernel que se encuentra
+en: _app/Console/Kernel.php_
+
+```
+    use App\Console\Commands\BuilderLinksTest;
+    use App\Console\Commands\Operations;
+
+    protected $commands = [
+        Operations::class,
+        BuilderLinksTest::class,
+    ];
+```
+<hr>
+
 Con esto ya tenemos nuestros comandos funcionando. Al ejecutar 
 *php artisan* podemos verlo incluido en el listado.
 
@@ -130,4 +146,8 @@ Con esto ya tenemos nuestros comandos funcionando. Al ejecutar
 ![Captura commands](commands.png "Captura commands")
 
 <hr>
-Podemos migrar para crear la base de datos con *php artisan migrate*
+Podemos migrar para crear la base de datos con 
+
+```
+php artisan migrate
+```
